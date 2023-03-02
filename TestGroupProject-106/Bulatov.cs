@@ -12,9 +12,13 @@ namespace TestGroupProject_106
         public int Count { get => count; }
         public Bulatov() { }
 
-        public void Step()
+        public Bulatov(int count) {
+            this.count = count;
+        }
+
+        public void Step(int value = 1)
         {
-            count++;
+            count += value;
         }
     }
 }
