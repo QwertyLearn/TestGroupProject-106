@@ -8,7 +8,7 @@ namespace TestGroupProject_106
 {
     internal class Bulatov
     {
-        int count = 0;
+        int count = 4;
         public int Count { get => count; }
         public Bulatov() { }
 
